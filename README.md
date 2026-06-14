@@ -1,46 +1,41 @@
-# 🌡️ Climate vs Quality of Life — Global Analysis (2025)
+# 🌡️ Does Living in a Hotter Climate Make Life Harder?
 
-## Project Overview
-This project investigates whether people living in hotter climates 
-experience lower quality of life compared to those in colder climates.
-Using real global data from the World Happiness Report and historical 
-temperature records, I analyzed 129 countries to uncover the relationship 
-between average temperature and happiness/wellbeing.
+## The Question
+There's a common observation that people in hotter, poorer countries 
+tend to struggle more. But does the data actually back that up? 
+This project digs into that question using real global data.
 
-## Key Questions Explored
-- Do colder countries score higher on happiness?
-- Do hotter countries dominate the bottom of the happiness index?
-- Which hot countries beat the trend — and what can we learn from them?
+## What This Project Does
+Analyzes 129 countries to explore whether average temperature has 
+any relationship with happiness, wellbeing, and quality of life.
 
-## Key Findings
-1. **Cold countries dominate happiness** — 9 out of 10 of the world's 
-   happiest countries have average temperatures below 10°C
-2. **Hot countries dominate misery** — every single bottom 10 country 
-   has an average temperature above 20°C
-3. **26 hot countries beat the trend** — nations like Costa Rica, 
-   Singapore, and UAE prove that strong economies and governance 
-   can overcome climate disadvantage
+## What The Data Found
+
+**1. Cold countries are happier — consistently**
+Finland, Iceland, Denmark, Norway, Sweden sit at the top of the 
+happiness index. All of them have average temperatures below 10°C. 
+This wasn't a coincidence — the pattern showed up across the 
+entire dataset.
+
+**2. The saddest countries are almost all hot**
+Every single country in the bottom 10 — Afghanistan, Sierra Leone, 
+Zimbabwe, Yemen — has an average temperature above 20°C.
+
+**3. But 26 hot countries beat the trend**
+Costa Rica, Singapore, UAE, and Australia all score above 6.0 on 
+happiness despite being hot. Temperature alone isn't the full story 
+— governance, economy, and culture clearly play a role too.
 
 ## Tools Used
-- Python (Pandas, Matplotlib, Seaborn)
-- Google Colab
-- Kaggle Datasets
+- Python (Pandas, Matplotlib, Seaborn) in Google Colab
+- World Happiness Report 2005–2025 (Kaggle)
+- Global Land Temperatures by Country — Berkeley Earth (Kaggle)
 
-## Datasets
-- World Happiness Report 2005–2025
-- Global Land Temperatures by Country (Berkeley Earth)
-
-## Charts Created
-1. Scatter plot — Temperature vs Happiness across 129 countries
-2. Trend line — Confirming the negative correlation
-3. Top 10 happiest vs saddest countries by temperature
-4. Hot countries (>20°C) that beat the happiness threshold
-
-## Conclusion
-There is a clear negative correlation between average temperature 
-and happiness score globally. However, outlier nations demonstrate 
-that climate is not destiny — strong institutions, economic opportunity, 
-and social support can override climate disadvantage.
+## About This Project
+This was a first ever data project — built from scratch by cleaning 
+messy data, merging two completely different datasets, fixing data 
+quality issues, and creating 4 charts that tell a clear story.
 
 ## Author
+Satya — CS & Engineering Graduate | Aspiring Data Analyst
 Satya — Aspiring Data & Business Analyst
